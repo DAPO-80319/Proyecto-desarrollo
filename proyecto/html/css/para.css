@@ -1,0 +1,162 @@
+/*Estilos generales*/
+@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Water+Brush&display=swap');
+
+.ptext .border{
+  background-color:transparent;
+}
+/*Estilos parallax*/
+.body1, .html1{
+  height:100%;
+  font-weight:400;
+  line-height:1.8em;
+  margin: 0;
+  background-color: #000;
+}
+/*Esto hará que las imágenes no se muevan */
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10, .pimg11, .pimg12, .pimg13, .pimg14,.pimg15, .pimg16, .pimg17, .pimg18, .pimg19
+{
+  position:relative;/*La posición será relativa al bloque*/
+  opacity:0.70;/*Porcentaje de opacidad*/
+  background-position:center;/*Posición de la imagen al centro*/
+  background-size:cover;/*La imagen cubre todo el bloque*/
+  background-repeat:no-repeat;/*La imagen no se repetirá en el mismo bloque*/
+  background-attachment:fixed; /*determina si la posición de la imagen de fondo será fija dentro de la pantalla o se desplazará con su bloque contenedor.En este caso con fixed se indica que la imagen no se moverá */
+}
+.pimg1{
+    background-image: url('../img/img_par/raven.jpg');
+    min-height:100%;
+    vertical-align: middle;
+}
+.pimg2{
+  background-image:url('../img/img_par/night.jpg');
+  min-height:100%;
+}
+.pimg3{
+  background-image:url('../img/img_par/winter.jpg');
+  min-height:100%;
+}
+.pimg4{
+  background-image:url('../img/img_par/cort.jpg');
+  min-height:100%;
+}
+.pimg5{
+  background-image:url('../img/img_par/door.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100%;
+}
+.pimg6{
+  background-image:url('../img/img_par/fog.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100%;
+}
+.pimg7{
+  background-image:url('../img/img_par/branch.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100%;
+}
+.pimg8{
+  background-image:url('../img/img_par/raven2.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100%;
+}
+.pimg9{
+  background-image:url('../img/img_par/raven3.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100%;
+}
+.pimg10{
+  background-image:url('../img/img_par/pallas.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100%;
+}
+.pimg11{
+  background-image:url('../img/img_par/raven4.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100%;
+}
+.pimg12{
+  background-image:url('../img/img_par/poe.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100%;
+}
+.pimg13{
+  background-image:url('../img/img_par/pallas2.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100%;
+}
+.pimg14{
+  background-image:url('../img/img_par/leo.jpg');
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
+.pimg15{
+  background-image:url('../img/img_par/nep.jpg');
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
+.pimg16{
+  background-image:url('../img/img_par/raven5.jpg');
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
+.pimg17{
+  background-image:url('../img/img_par/leo2.jpg');
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
+.pimg18{
+  background-image:url('../img/img_par/anx.jpg');
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
+.pimg19{
+  background-image:url('../img/img_par/nevermore.jpeg');
+  background-repeat: no-repeat;
+  min-height: 100%;
+}
+/*Estilo de la sección*/
+.section{
+  text-align:center;
+  padding:50px 80px;
+  background-color: black;
+  text-shadow: #000;
+}
+.section-dark{
+  background-color: #000;
+  color:rgb(255, 255, 255);
+}
+/*Estilo contenedor de texto*/
+.ptext{
+  position:absolute;
+  top:30%;
+  width:100%;
+  text-align:center;
+  color:rgb(255, 255, 255);
+  letter-spacing:8px;
+  text-transform:uppercase;
+}
+.ptext .border{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.737);
+  color: rgb(255, 255, 255);
+  padding:2rem;
+  font-size: 4vw;
+  font-family: 'Water Brush', cursive;
+  border-radius: 10px;
+}
+/*Estilo de los versos*/
+.verso{
+  font-family: 'Playfair Display', serif;
+  font-size: x-large;
+
+}
