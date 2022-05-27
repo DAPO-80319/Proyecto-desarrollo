@@ -1,9 +1,11 @@
 /*Estilos generales*/
-@import url('https://fonts.googleapis.com/css2?family=Water+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Hollow&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Water+Brush&display=swap');
 
 .ptext .border{
   background-color:transparent;
+  margin-top: 30%;
+ font-weight: 30%;
 }
 /*Estilos parallax*/
 .body1, .html1{
@@ -11,10 +13,10 @@
   font-weight:400;
   line-height:1.8em;
   margin: 0;
-  background-color: #000;
+  background-color: rgb(214, 255, 190);
 }
 /*Esto hará que las imágenes no se muevan */
-.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10, .pimg11, .pimg12, .pimg13, .pimg14,.pimg15, .pimg16, .pimg17, .pimg18, .pimg19
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6, .pimg7, .pimg8, .pimg9, .pimg10, .pimg11, .pimg12, .pimg13, .pimg14,.pimg15, .pimg16
 {
   position:relative;/*La posición será relativa al bloque*/
   opacity:0.70;/*Porcentaje de opacidad*/
@@ -24,117 +26,131 @@
   background-attachment:fixed; /*determina si la posición de la imagen de fondo será fija dentro de la pantalla o se desplazará con su bloque contenedor.En este caso con fixed se indica que la imagen no se moverá */
 }
 .pimg1{
-    background-image: url('../img/img_par/raven.jpg');
+    background-image: url('https://www.elindependiente.com/wp-content/uploads/2019/02/140620_JulioCortazar_01_internet-1920x1080.jpg');
     min-height:100%;
     vertical-align: middle;
 }
 .pimg2{
-  background-image:url('../img/img_par/night.jpg');
+  background-image:url('https://us.123rf.com/450wm/gajus/gajus1402/gajus140200003/25651206-primer-punto-de-vista-de-%C3%A1ngulo-bajo-de-un-hombre-de-negocios-con-un-traje-de-la-firma-de-un-documen.jpg?ver=6');
   min-height:100%;
 }
 .pimg3{
-  background-image:url('../img/img_par/winter.jpg');
+  background-image:url('https://i.pinimg.com/originals/dd/c2/62/ddc262513b2ad1b3b71d317dd99f9ea0.jpg');
   min-height:100%;
 }
 .pimg4{
-  background-image:url('../img/img_par/cort.jpg');
+  background-image:url('https://hispanophone.ca/wp-content/uploads/2016/04/traduccion-marionportada.jpg');
   min-height:100%;
 }
 .pimg5{
-  background-image:url('../img/img_par/door.jpg');
+  background-image:url('https://i.ytimg.com/vi/EIgVfL7q5rk/hqdefault.jpg');
   background-repeat: no-repeat;
   width: 100%;
   min-height: 100%;
 }
 .pimg6{
-  background-image:url('../img/img_par/fog.jpg');
+  background-image:url('https://loresumo.com/wp-content/uploads/2020/02/2321015799_a82338304a_z1.jpg');
   background-repeat: no-repeat;
   width: 100%;
   min-height: 100%;
 }
 .pimg7{
-  background-image:url('../img/img_par/branch.jpg');
+  background-image:url('https://i.ytimg.com/vi/Xj0_KyMrxxg/maxresdefault.jpg');
   background-repeat: no-repeat;
   width: 100%;
   min-height: 100%;
 }
 .pimg8{
-  background-image:url('../img/img_par/raven2.jpg');
+  background-image:url('https://www.isliada.org/static/images/2018/04/continuidad-de-los-parques-bertmel.jpg');
   background-repeat: no-repeat;
   width: 100%;
   min-height: 100%;
 }
 .pimg9{
-  background-image:url('../img/img_par/raven3.jpg');
+  background-image:url('https://live.staticflickr.com/3799/9897892784_5752691ace_b.jpg');
   background-repeat: no-repeat;
   width: 100%;
   min-height: 100%;
 }
 .pimg10{
-  background-image:url('../img/img_par/pallas.jpg');
+  background-image:url('https://pbs.twimg.com/media/E4EEeD8XIAMijrB.jpg');
   background-repeat: no-repeat;
   width: 100%;
   min-height: 100%;
 }
 .pimg11{
-  background-image:url('../img/img_par/raven4.jpg');
-  background-repeat: no-repeat;
-  width: 100%;
-  min-height: 100%;
-}
-.pimg12{
-  background-image:url('../img/img_par/poe.jpg');
+  background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6A-Tb2BaK45_4OKfMadIyYRl-MsjDJXMTCQ&usqp=CAU');
   background-repeat: no-repeat;
   width: 100%;
   min-height: 100%;
 }
 .pimg13{
-  background-image:url('../img/img_par/pallas2.jpg');
+  background-image:url('https://mir-s3-cdn-cf.behance.net/projects/404/f6dce2106483685.Y3JvcCw3MjIsNTY1LDY3NCwxNTk1.jpg');
   background-repeat: no-repeat;
   width: 100%;
   min-height: 100%;
 }
-.pimg14{
-  background-image:url('../img/img_par/leo.jpg');
-  background-repeat: no-repeat;
-  min-height: 100%;
-}
 .pimg15{
-  background-image:url('../img/img_par/nep.jpg');
+  background-image:url('https://4.bp.blogspot.com/-SwTLTVASV6c/W_nZ89iBG6I/AAAAAAAAAKQ/lgh-O08LJMsQK3mTs_mwqCt45AG6aCt0wCLcBGAs/s1600/Parques.jpg');
   background-repeat: no-repeat;
   min-height: 100%;
 }
 .pimg16{
-  background-image:url('../img/img_par/raven5.jpg');
+  background-image:url('https://cdnb.artstation.com/p/assets/images/images/001/072/221/large/luciano-d-amico-ultima-pagina.jpg?1439422361');
   background-repeat: no-repeat;
   min-height: 100%;
 }
-.pimg17{
-  background-image:url('../img/img_par/leo2.jpg');
-  background-repeat: no-repeat;
-  min-height: 100%;
-}
-.pimg18{
-  background-image:url('../img/img_par/anx.jpg');
-  background-repeat: no-repeat;
-  min-height: 100%;
-}
-.pimg19{
-  background-image:url('../img/img_par/nevermore.jpeg');
-  background-repeat: no-repeat;
-  min-height: 100%;
-}
+
 /*Estilo de la sección*/
 .section{
   text-align:center;
   padding:50px 80px;
-  background-color: black;
-  text-shadow: #000;
+  background-color: rgb(0, 0, 0);
+  text-shadow: rgb(107, 74, 74);
 }
-.section-dark{
-  background-color: #000;
-  color:rgb(255, 255, 255);
+.section-dark1{
+  background: linear-gradient(180deg, rgb(113, 129, 113), rgb(167, 167, 167) 80%, rgb(59, 77, 63));
 }
+.section-dark2{/*decoloración del fondo de mis textos*/
+  background: linear-gradient(180deg, rgb(210, 255, 193), rgb(138, 202, 132) 80%, rgb(64, 143, 61));
+}
+.section-dark3{
+  background: linear-gradient(180deg, rgb(199, 156, 77), rgb(72, 145, 78) 80%, rgb(126, 129, 77));
+}
+.section-dark4{
+  background:linear-gradient(180deg, blue, black 80%, grey) ;
+}
+.section-dark5{
+  background: linear-gradient(180deg, red, gold 80%, silver);
+}
+.section-dark6{
+  background: linear-gradient(180deg, pink, red 80%, silver);
+}
+.section-dark7{
+  background: linear-gradient(180deg, blue, green 80%, black);
+}
+.section-dark8{
+  background: linear-gradient(180deg, rgb(102, 102, 83), rgb(115, 138, 89) 80%, rgb(42, 59, 42));
+}
+.section-dark9{
+  background: linear-gradient(180deg, rgb(117, 96, 76), rgb(78, 97, 78) 80%, rgb(115, 115, 134));
+}
+.section-dark10{
+  background: linear-gradient(180deg, rgb(115, 115, 134), green 80%, rgb(104, 112, 107));
+}
+.section-dark11{
+  background: linear-gradient(180deg, rgb(100, 122, 107), rgb(159, 172, 159) 80%, rgb(104, 112, 107));  
+}
+.section-dark12{
+  background: linear-gradient(180deg, rgb(49, 61, 52), rgb(255, 255, 255) 80%, rgb(0, 162, 255));
+}
+.section-dark13{
+  background: linear-gradient(180deg, rgb(120, 192, 236), rgb(74, 109, 74) 50%, rgb(115, 91, 134));
+}
+.section-dark14{
+  background: linear-gradient(180deg, rgb(133, 102, 151), rgb(63, 131, 63) 80%, rgb(105, 86, 43));
+}
+
 /*Estilo contenedor de texto*/
 .ptext{
   position:absolute;
@@ -151,12 +167,13 @@
   color: rgb(255, 255, 255);
   padding:2rem;
   font-size: 4vw;
-  font-family: 'Water Brush', cursive;
+  font-family: 'Blaka Hollow', cursive;
   border-radius: 10px;
 }
 /*Estilo de los versos*/
 .verso{
   font-family: 'Playfair Display', serif;
   font-size: x-large;
+  color: aliceblue;
 
 }
